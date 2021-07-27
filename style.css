@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin:0px;
+    background: url('wall.jpg');
+    font-size: 25px;
+}
+h1,p {
+   
+    text-shadow: 1px 1px rgb(0, 225, 255);
+    color: rgb(255, 245, 230);
+}
+
+p {
+    font-size: 50px;
+}
+.header{
+	
+    color:rgb(255, 255, 255);
+    font-size:2rem;
+    text-align:center;
+    font-style: italic;
+    font-family:Lobster;
+    padding:1rem;
+    margin:0px;
+    font-size: 70px;
+	text-shadow: 2px 2px rgb(28, 216, 230);
+}
+
+.in-textarea{
+    border-radius: 1rem;
+    font-size: larger;
+    max-width: 80%;
+    display: block;
+    margin: 3rem auto;
+    height:6rem;
+    width: 30rem;
+    padding:1rem;
+}
+.out-textarea{
+    border-radius: 1rem;
+    font-size: larger;
+    max-width: 80%;
+    display: block;
+    margin: 3rem auto;
+    height:6rem;
+    width:30rem;
+    padding:1rem;
+    margin-top: 30px;
+    margin-top:0;
+}
+p{
+    margin-left:30%;
+}
+#btn-translate{
+    color: antiquewhite;
+    width: 14%;
+    background: linear-gradient(to right, blue, rgb(0, 255, 200)) ;
+    display:inline;
+    padding:0.5rem;
+    font-size:1rem;
+    max-width:80%;
+    border-radius: 1rem;
+}
+#btn-translate:hover {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 255, 255) );
+}
+
+#btn-clear {
+    color: antiquewhite;
+    width: 14%;
+    background: linear-gradient(to right,rgb(0, 255, 200),blue );
+    display:inline;
+    padding:0.5rem;
+    font-size:1rem;
+    max-width:80%;
+    border-radius: 1rem;
+}
+
+#btn-clear:hover {
+    background: linear-gradient(to left, rgb(0, 255, 255), rgb(0, 0, 0) );
+}
+
+.btn-container{
+   text-align:center;
+   
+}
+footer{
+    text-align:center;
+    font-style: italic;
+}
+
+footer h1 {
+    font-size: 50px;
+}
+.footer-content{
+    text-decoration: double;
+    font-size: 30PX;
+    padding-top: 0;
+    max-width: 80%;
+    text-align: center;
+    width:35rem;
+    margin:auto;
+}
+
+
+
+.in-textarea:hover {
+    background: linear-gradient(to bottom, rgb(253, 253, 253), rgb(1, 181, 187));
+}
+
+.out-textarea:hover {
+    background: linear-gradient(to top, rgb(253, 253, 253), rgb(1, 181, 187));
+}
+
+footer h1 {
+    margin-bottom: 3px;
+    
+}
